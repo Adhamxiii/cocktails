@@ -1,5 +1,4 @@
-import React, { useState, useContext, useEffect, createContext } from "react";
-import { useCallback } from "react";
+import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
 
 const url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
 const AppContext = createContext();
@@ -56,3 +55,4 @@ export const useGlobalContext = () => {
 };
 
 export { AppContext, AppProvider };
+
